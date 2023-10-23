@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="text-white">
             <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-                <video autoPlay loop muted playsinline id='video' className="absolute top-0 left-0 w-full h-full object-cover z-[-1]">
+                <video autoPlay loop muted id='video' className="absolute top-0 left-0 w-full h-full object-cover z-[-1]">
                     <source src={MainVideo} type='video/mp4'/>
                 </video>
                 <p className='text-white font-bold p-2 text-2xl'>
